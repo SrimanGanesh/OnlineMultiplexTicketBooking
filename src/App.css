@@ -13,6 +13,10 @@ body {
   font-family: "Montserrat", sans-serif;
   height: 100vh;
   margin: -20px 0 50px;
+  background-image: url('./images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 h1 {
@@ -161,8 +165,8 @@ input {
 
 .overlay {
   background: #ff416c;
-  background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
-  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  background: blueviolet;
+  background: blueviolet;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
@@ -180,6 +184,7 @@ input {
 }
 
 .overlay-panel {
+  background-color: blueviolet;
   position: absolute;
   display: flex;
   align-items: center;

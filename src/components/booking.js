@@ -44,7 +44,7 @@ export const Booking = () => {
             href="http://www.creative-tim.com"
             className="simple-text logo-normal"
           >
-            AK CINEMAS
+            Team-G CINEMAS
           </a>
         </div>
         <div className="sidebar-wrapper">

@@ -92,11 +92,11 @@ export const Ticketbookingform = () => {
     var fulldate = day + "-0" + month + "-" + fullyear;
     e.preventDefault();
     var options = {
-      key: "rzp_test_ijnaOYyX5ybBbr",
-      key_secret: "px9p8lKaMYvbOxJTnGpXqCrV",
+      key: "rzp_test_rpyQSNJiZz6xLE",
+      key_secret: "DnplKKBFHk4czExe27tB6rvlD",
       amount: ticketcost * 100 * ceats,
       currency: "INR",
-      name: "AK CINEMAS ",
+      name: "Team-G CINEMAS ",
       description: moviename,
       image: movieimage,
       handler: function(response) {
